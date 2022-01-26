@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="methods" preserve-order="true">
+    <classes>
+      <class name="main.test.SmartLoanLogin">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="navigateToSmartHome"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- main.test.SmartLoanLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
